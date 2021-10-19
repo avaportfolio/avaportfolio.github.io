@@ -4,16 +4,16 @@
 
 // - - - - - - - - - - - - - - - - - -
 
-.blog {
+.recent {
 	padding: 0 $grid-spacing/2;
 	margin-top: -$grid-spacing/2;
 }
 
-.blog-wrap {
+.recent-wrap {
 	
 }
 
-.blog-post {
+.recent-post {
 	position: relative;
 	padding: $grid-spacing/2;
 	float: left;
@@ -28,7 +28,7 @@
 	}
 }
 
-.blog-post__link {
+.recent-post__link {
 	position: relative;
 	display: block;
 
@@ -36,7 +36,7 @@
 
 		&:hover {
 
-			.blog-post__content {
+			.recent-post__content {
 				opacity: 1;
 				visibility: visible;
 			}
@@ -44,11 +44,11 @@
 	}
 }
 
-.blog-post__image {
+.recent-post__image {
 	width: 100%;
 }
 
-.blog-post__content {
+.recent-post__content {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -64,11 +64,11 @@
 	@include transition(all 0.2s ease-in-out);
 }
 
-.blog-post__info {
+.recent-post__info {
 	text-align: center;
 }
 
-.blog-post__title {
+.recent-post__title {
 	color: $overlay-text-color;
 	font-size: $grid-item-title-small;
 	font-weight: $grid-item-title-weight;
@@ -83,7 +83,7 @@
 	}
 }
 
-.blog-post__subtitle {
+.recent-post__subtitle {
 	margin-top: 5px;
 	color: rgba($overlay-text-color, 0.7);
 	font-size: $grid-item-subtitle-small;

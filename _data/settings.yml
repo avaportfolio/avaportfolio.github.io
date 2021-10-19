@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Board
+  site_title: Ava Behunin
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -8,10 +8,22 @@ header_settings:
 
 menu_settings:
   menu_items:
+    - title: 'Recent'
+      url: '/recent'
     - title: 'Projects'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
+    - title: 'Apparel'
+      url: '/apparel'
+    - title: 'Drawing'
+      url: '/drawing'
+    - title: 'Painting'
+      url: '/painting'
+    - title: 'Photography'
+      url: '/photography'
+    - title: 'Sculpture'
+      url: '/sculpture'
+    - title: 'Video'
+      url: '/video'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
